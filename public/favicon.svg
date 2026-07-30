@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Matte dark background -->
+  <circle cx="50" cy="50" r="50" fill="#0F172A"/>
+  <!-- Thin gold circular border -->
+  <circle cx="50" cy="50" r="45.5" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+
+  <!-- Letter H  (left half: x 16–48, y 25–75) -->
+  <rect x="16" y="25" width="9" height="50" rx="1.5" fill="#F59E0B"/>
+  <rect x="39" y="25" width="9" height="50" rx="1.5" fill="#F59E0B"/>
+  <rect x="16" y="46" width="32" height="8"  rx="1"   fill="#F59E0B"/>
+
+  <!-- Letter V  (right half: x 54–84, centre 69, y 25–75) -->
+  <!-- left diagonal bar  -->
+  <polygon points="54,25 63,25 73,75 64,75" fill="#F59E0B"/>
+  <!-- right diagonal bar (shares bottom edge) -->
+  <polygon points="75,25 84,25 73,75 64,75" fill="#F59E0B"/>
+</svg>

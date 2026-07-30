@@ -58,16 +58,18 @@ const SkillsSection = () => {
     { name: "Hibernate", level: 76, category: "orm", color: "from-amber-500 to-orange-500" },
     { name: "JPA",       level: 74, category: "orm", color: "from-orange-500 to-red-500"   },
     // Tools & Platforms
-    { name: "Git",     level: 87, category: "tools", color: "from-orange-500 to-red-500"  },
-    { name: "GitHub",  level: 87, category: "tools", color: "from-gray-600 to-gray-800"   },
-    { name: "VS Code", level: 92, category: "tools", color: "from-blue-500 to-blue-700"   },
-    { name: "Postman", level: 82, category: "tools", color: "from-orange-500 to-amber-500" },
+    { name: "Git",           level: 87, category: "tools", color: "from-orange-500 to-red-500"  },
+    { name: "GitHub",        level: 87, category: "tools", color: "from-gray-600 to-gray-800"   },
+    { name: "VS Code",       level: 92, category: "tools", color: "from-blue-500 to-blue-700"   },
+    { name: "Postman",       level: 82, category: "tools", color: "from-orange-500 to-amber-500" },
+    { name: "Apache Tomcat", level: 78, category: "tools", color: "from-yellow-600 to-orange-600" },
     // Software Development Concepts
-    { name: "REST APIs",                    level: 87, category: "concepts", color: "from-indigo-500 to-purple-500"  },
-    { name: "JWT Authentication",           level: 80, category: "concepts", color: "from-violet-500 to-purple-600" },
-    { name: "Object-Oriented Programming",  level: 90, category: "concepts", color: "from-blue-500 to-violet-500"  },
-    { name: "Data Structures & Algorithms", level: 78, category: "concepts", color: "from-cyan-500 to-blue-500"    },
-    { name: "Generative AI Fundamentals",   level: 72, category: "concepts", color: "from-fuchsia-500 to-pink-500" },
+    { name: "REST APIs",                          level: 87, category: "concepts", color: "from-indigo-500 to-purple-500"  },
+    { name: "JWT Authentication",                 level: 80, category: "concepts", color: "from-violet-500 to-purple-600" },
+    { name: "Object-Oriented Programming",        level: 90, category: "concepts", color: "from-blue-500 to-violet-500"  },
+    { name: "Data Structures & Algorithms",       level: 78, category: "concepts", color: "from-cyan-500 to-blue-500"    },
+    { name: "Generative AI Fundamentals",         level: 72, category: "concepts", color: "from-fuchsia-500 to-pink-500" },
+    { name: "Razorpay Payment Gateway Integration", level: 74, category: "concepts", color: "from-blue-600 to-indigo-600" },
   ];
 
   const filteredSkills = activeCategory === "all" 

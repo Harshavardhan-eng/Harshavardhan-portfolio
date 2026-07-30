@@ -1,4 +1,4 @@
-import { ExternalLink, Github, CheckCircle2, Layers, Activity, Music, Users, Plane, Code } from "lucide-react";
+import { ExternalLink, Github, CheckCircle2, Layers, Activity, Music, Users, Plane, Code, ShoppingCart } from "lucide-react";
 
 const ProjectsSection = () => {
   const projects = [
@@ -77,6 +77,26 @@ const ProjectsSection = () => {
       icon: Music,
       image: "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?w=600&h=400&fit=crop",
       color: "from-pink-500 to-rose-500",
+    },
+
+    {
+      title: "CraveKart – Multi-Role Food Delivery Web Application",
+      subtitle: "End-to-End Java Full Stack Web Application",
+      description: "A multi-role food delivery web application supporting Customer, Restaurant Partner, Delivery Partner, and Admin roles, built end-to-end solo using core Java, Servlets, and JSP with a layered backend architecture.",
+      highlights: [
+        "Secure multi-role auth & session management",
+        "Layered Servlet → Service → DAO → Model architecture",
+        "AJAX-based cart with real-time price calculation",
+        "Razorpay integration with HMAC-SHA256 verification",
+        "Cash-on-Delivery alternative payment flow",
+        "JDBC & MySQL for menus, carts, orders, coupons"
+      ],
+      tags: ["Java", "JSP", "Servlets", "JDBC", "MySQL", "JavaScript (AJAX)", "Apache Tomcat", "Razorpay"],
+      icon: ShoppingCart,
+      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&h=400&fit=crop",
+      color: "from-orange-500 to-red-500",
+      github: "https://github.com/Harshavardhan-eng",
+      liveDemo: "https://github.com/Harshavardhan-eng",
     },
 
     {

@@ -1,0 +1,27 @@
+# Netlify configuration
+[build]
+  command   = "npm run build"
+  publish   = "dist"
+
+# Force browsers to always re-validate favicon assets
+[[headers]]
+  for = "/favicon*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/apple-touch-icon.png"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Long-cache fingerprinted JS/CSS assets (Vite hashes them)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# SPA fallback — all routes serve index.html
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

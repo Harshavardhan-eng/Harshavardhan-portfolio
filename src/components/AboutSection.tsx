@@ -2,10 +2,10 @@ import { Code2, Cpu, Palette, TrendingUp, GraduationCap } from "lucide-react";
 
 const AboutSection = () => {
   const highlights = [
-    { icon: Code2, title: "Full Stack", desc: "End-to-end development" },
-    { icon: Cpu, title: "Generative AI", desc: "AI-powered solutions" },
-    { icon: Palette, title: "UI/UX Design", desc: "User-centered design" },
-    { icon: TrendingUp, title: "Problem Solver", desc: "Creative solutions" },
+    { icon: Code2, title: "Java Full Stack", desc: "Java, Spring Boot & React" },
+    { icon: Cpu, title: "REST APIs & MySQL", desc: "Layered backend architecture" },
+    { icon: Palette, title: "Real-time & Security", desc: "JWT auth & WebSockets" },
+    { icon: TrendingUp, title: "AI & Serverless", desc: "Modern API integrations" },
   ];
 
   return (
@@ -20,7 +20,7 @@ const AboutSection = () => {
             About Me
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-            Building software that <span className="text-gradient">makes an impact</span>
+            Java Full Stack <span className="text-gradient">Developer</span>
           </h2>
         </div>
 
@@ -30,26 +30,13 @@ const AboutSection = () => {
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
                 Hello! I'm <span className="text-foreground font-semibold">Harsha Vardhan Sreerangapuram</span>,
-                an aspiring Java Full Stack Developer with a strong foundation in application development,
-                object-oriented programming, database management, and modern web technologies. My focus is
-                on building maintainable, efficient, and scalable software that delivers meaningful business value.
+                a <span className="text-primary font-medium">B.Tech Computer Science Engineering Graduate (2026)</span> focused on Java Full Stack development.
               </p>
               <p>
-                Through academic projects, internships, and continuous self-learning, I have gained hands-on
-                experience working with <span className="text-primary">Java, Spring Boot, React, Angular, MySQL,
-                REST APIs</span>, and modern development workflows. These experiences have strengthened my ability
-                to design, develop, and enhance applications across the full software development lifecycle.
+                I build full-stack web applications using <span className="text-foreground font-medium">Java, Spring Boot, React, REST APIs</span> and relational databases. My projects include a multi-role food delivery platform (<span className="text-primary font-medium">CraveKart</span>), a real-time study collaboration platform (<span className="text-primary font-medium">Study Group Finder</span>), and modern React applications integrating AI and external APIs.
               </p>
               <p>
-                Alongside full-stack development, I actively explore <span className="text-accent">Generative AI
-                technologies</span> and their practical applications in modern software systems. I am particularly
-                interested in how AI-powered capabilities can enhance user experiences, automate workflows, and
-                solve real-world challenges.
-              </p>
-              <p>
-                Currently seeking opportunities where I can contribute to impactful engineering teams, strengthen
-                my technical expertise, and grow into a well-rounded software developer while delivering
-                high-quality solutions in fast-paced environments.
+                My technical strengths lie in backend API design, database modeling with <span className="text-foreground font-medium">MySQL</span>, session and <span className="text-foreground font-medium">JWT-based authentication</span>, real-time <span className="text-foreground font-medium">WebSocket/STOMP</span> messaging, and clean component architecture on the frontend.
               </p>
             </div>
 
@@ -68,12 +55,12 @@ const AboutSection = () => {
                 <div>
                   <h4 className="text-sm font-medium text-primary mb-1">Education</h4>
                   <p className="font-display font-semibold text-foreground">
-                    B.Tech – Computer Science Engineering (2022 – 2026)
+                    B.Tech Computer Science Engineering Graduate — 2026
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">
                     Sri Venkateswara College of Engineering and Technology (Autonomous), Chittoor
                   </p>
-                  <p className="text-xs text-primary/70 mt-1 font-medium">Graduated 2026</p>
+                  <p className="text-xs text-primary/80 mt-1 font-medium">Graduated 2026</p>
                 </div>
               </div>
             </div>

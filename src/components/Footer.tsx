@@ -16,13 +16,12 @@ const Footer = () => {
         >
           {/* Copyright */}
           <p className="text-sm text-foreground font-medium">
-            © Harsha Vardhan. All rights reserved.
+            © {new Date().getFullYear()} Harsha Vardhan Sreerangapuram. All rights reserved.
           </p>
 
-          {/* Disclaimer */}
+          {/* Tagline */}
           <p className="text-sm text-muted-foreground leading-relaxed max-w-xl">
-            This portfolio website is created for professional presentation and personal branding.
-            All content, designs, and projects showcased here belong to the owner unless stated otherwise.
+            Java Full Stack Developer specializing in Java, Spring Boot, React, REST APIs and MySQL.
           </p>
 
           {/* Back to top */}
@@ -41,17 +40,7 @@ const Footer = () => {
 
           {/* Technologies */}
           <div className="space-y-3">
-            <p className="text-sm text-muted-foreground">Built with modern web technologies:</p>
-            <div className="flex flex-wrap justify-center gap-x-3 gap-y-2">
-              {technologies.map((tech, index) => (
-                <span key={tech} className="text-xs text-foreground/80 font-medium">
-                  {tech}
-                  {index < technologies.length - 1 && (
-                    <span className="text-primary ml-3">•</span>
-                  )}
-                </span>
-              ))}
-            </div>
+            <p className="text-sm text-muted-foreground">Built with React, TypeScript, Tailwind CSS, and modern web technologies.</p>
           </div>
         </div>
 

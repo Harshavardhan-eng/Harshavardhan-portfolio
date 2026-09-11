@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { ArrowDown, Download, Github, Linkedin, Mail, ChevronRight } from "lucide-react";
 
+const roles = ["Java Full Stack Developer", "Spring Boot Developer", "React Developer"];
+
 const HeroSection = () => {
-  const roles = ["Full Stack Developer", "AI Integration", "Scalable Web Applications"];
   const [currentRole, setCurrentRole] = useState(0);
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
-  const resumeUrl = "/Harsha_Vardhan_Resume.pdf?v=4";
+  const resumeUrl = "/Harsha_Vardhan_Resume.pdf";
   const profileImageUrl = "/profile.jpg";
 
   useEffect(() => {
@@ -30,7 +31,7 @@ const HeroSection = () => {
     }, isDeleting ? 50 : 100);
 
     return () => clearTimeout(timeout);
-  }, [displayText, isDeleting, currentRole, roles]);
+  }, [displayText, isDeleting, currentRole]);
 
   return (
     <section
@@ -59,7 +60,7 @@ const HeroSection = () => {
               className="h-10 mb-6"
               style={{ opacity: 0, animation: 'heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards' }}
             >
-              <span className="font-display text-xl md:text-2xl text-primary">
+              <span className="font-display text-xl md:text-2xl text-primary font-semibold">
                 {displayText}
                 <span className="animate-pulse text-accent">|</span>
               </span>
@@ -69,9 +70,7 @@ const HeroSection = () => {
               className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-xl"
               style={{ opacity: 0, animation: 'heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards' }}
             >
-              Aspiring Java Full Stack Developer focused on building scalable, high-performance web applications
-              using modern development technologies. Continuously expanding expertise in Generative AI and
-              software engineering to create reliable, user-centric digital solutions.
+              Building web applications with Java, Spring Boot, React, REST APIs and MySQL.
             </p>
 
             {/* CTA Buttons */}

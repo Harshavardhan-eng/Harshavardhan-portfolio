@@ -11,7 +11,7 @@ const Navigation = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
       
-      const sections = ["home", "about", "skills", "projects", "certifications", "contact"];
+      const sections = ["home", "about", "skills", "projects", "experience", "certifications", "contact"];
       for (const section of [...sections].reverse()) {
         const element = document.getElementById(section);
         if (element && window.scrollY >= element.offsetTop - 200) {
@@ -24,7 +24,7 @@ const Navigation = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navItems = ["Home", "About", "Skills", "Projects", "Certifications", "Contact"];
+  const navItems = ["Home", "About", "Skills", "Projects", "Experience", "Certifications", "Contact"];
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id.toLowerCase());

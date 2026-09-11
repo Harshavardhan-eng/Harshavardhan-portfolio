@@ -19,6 +19,20 @@ const ExperienceSection = () => {
       color: "from-orange-500 to-amber-600",
     },
     {
+      icon: Briefcase,
+      title: "JPMorgan Chase & Co. Job Simulation",
+      type: "Software Engineering (Forage)",
+      period: "2025",
+      description: "Virtual software engineering experience tackling practical enterprise software development tasks.",
+      responsibilities: [
+        "Analyzed existing open-source codebases and resolved technical bugs",
+        "Utilized Git workflows and version control for feature implementation",
+        "Practiced software debugging, testing, and system maintenance standards",
+      ],
+      technologies: ["Software Engineering", "Debugging", "Python", "Git", "Code Review"],
+      color: "from-purple-500 to-violet-600",
+    },
+    {
       icon: Code,
       title: "Infosys Springboard Virtual Internship",
       type: "Java Technology Track",
@@ -47,20 +61,6 @@ const ExperienceSection = () => {
       ],
       technologies: ["HTML5", "CSS3", "JavaScript", "SQL", "Git", "REST Basics"],
       color: "from-emerald-500 to-teal-600",
-    },
-    {
-      icon: Briefcase,
-      title: "JPMorgan Chase & Co. Job Simulation",
-      type: "Software Engineering (Forage)",
-      period: "2024",
-      description: "Virtual software engineering experience tackling practical enterprise software development tasks.",
-      responsibilities: [
-        "Analyzed existing open-source codebases and resolved technical bugs",
-        "Utilized Git workflows and version control for feature implementation",
-        "Practiced software debugging, testing, and system maintenance standards",
-      ],
-      technologies: ["Software Engineering", "Debugging", "Python", "Git", "Code Review"],
-      color: "from-purple-500 to-violet-600",
     },
   ];
 

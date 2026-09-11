@@ -3,6 +3,22 @@ import { Briefcase, Code, Award, CheckCircle2 } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [
     {
+      icon: Briefcase,
+      title: "Full Stack Developer Intern",
+      type: "TAP Academy • Bengaluru, Karnataka",
+      period: "Feb 2026 – Aug 2026",
+      description: "Completed a hands-on Full Stack Development internship at TAP Academy, Bengaluru, gaining practical experience in Java-based web development, frontend technologies, databases, application architecture, and software development workflows. Applied classroom concepts to real project development and strengthened practical problem-solving and development skills through continuous implementation.",
+      responsibilities: [
+        "Applied Java full-stack development concepts to build and enhance web applications using Java, JSP, Servlets, JDBC, MySQL, HTML5, CSS3, and JavaScript.",
+        "Gained hands-on experience with application architecture, database integration, CRUD operations, backend development, frontend integration, debugging, and end-to-end feature implementation.",
+        "Major Project: CraveKart — Developed CraveKart, a multi-role food delivery web application, as a major milestone project during the internship, implementing customer, restaurant, and delivery partner workflows with Java, JSP, Servlets, JDBC, and MySQL.",
+        "Strengthened practical software development skills through Git/GitHub version control, structured application development, debugging, testing, and iterative feature implementation.",
+        "Transformed academic knowledge into practical development experience through continuous hands-on implementation, problem-solving, code debugging, and collaborative learning in a professional environment.",
+      ],
+      technologies: ["Java", "JSP", "Servlets", "JDBC", "MySQL", "HTML5", "CSS3", "JavaScript", "Git", "GitHub"],
+      color: "from-orange-500 to-amber-600",
+    },
+    {
       icon: Code,
       title: "Infosys Springboard Virtual Internship",
       type: "Java Technology Track",
